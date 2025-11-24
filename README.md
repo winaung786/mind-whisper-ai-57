@@ -97,3 +97,23 @@ MindWhisper is an AI-powered mental wellness platform built with React, TypeScri
 - Crisis resources with emergency mental health contacts
 - Personalized safety plans
 - Quick access to safety plans during emergencies
+
+### Admin & Management
+- Owner/Admin dashboard with three permission levels:
+  - Viewer (Level 1): Read-only access for users, content, feedback, analytics, and subscriptions
+  - Editor (Level 2): All viewer permissions plus create/edit/delete wellness articles, modify user info, update feedback status, and manage subscriptions
+  - Admin (Level 3): Full control over system settings, admin panel configuration, and platform management
+- User management tools including advanced search (email, name, subscription tier) and detailed user profiles with engagement timelines
+- Moderation controls to ban users (temporary or lifetime), suspend users (preset or custom durations), block users, track moderation history, add reason notes, and revoke actions with notes
+- Bulk user operations for batch actions and sending push notifications
+- Content management with article creation/editing/deletion, TipTap-based rich text editor, publish/unpublish controls, and engagement analytics
+- System monitoring dashboard for database performance, edge function execution times, API response times, storage usage, active sessions, and CPU/memory alerts
+- Audit logs that capture admin actions, account modifications, publish/unpublish events, subscription changes, settings updates, and failed login attempts
+- Financial dashboard with revenue analytics, MRR trends, 6-month forecasting (linear regression), customer lifetime value, churn analysis, payment failure tracking, revenue by tier, and subscription flow visualization
+- Navigation visibility manager to control sidebar menus, group visibility, admin-controlled settings, and persistence across sessions
+
+### Subscription Management
+- Subscription tiers: Free, Premium, Pro, and Business
+- Stripe integration for payments with checkout sessions to create payment links and a customer portal for managing subscriptions
+- Subscription history tracking for changes across tiers
+- Usage tracking covering monthly check-in counts, chat message limits, and feature access controls
